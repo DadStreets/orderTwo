@@ -1,0 +1,78 @@
+/*==============================*/
+/*  Intro Style  */
+.intro {
+	padding: 125px 0;
+	background: #f3f3f1;
+	background: #f3f3f1 url('../images/intro.jpg') center center / cover no-repeat;
+}
+
+.intro__title {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #111;
+	font-size: 2.8125rem;
+	line-height: 3.375rem;
+	margin-bottom: 38px;
+}
+
+.intro__line {
+	font-size: 1.125rem;
+	color: #111;
+	line-height: 1.4;
+}
+
+
+/*==============================*/
+/*  Services Style  */
+.services {
+	padding: 48px 0;
+}
+
+.services-box {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: space-between;
+	margin: 50px 0 22px;
+}
+
+.services-card {
+	width: 300px;
+	text-align: center;
+	border: 4px solid #f3f3f1;
+	border-radius: 6px;
+	padding: 24px 12px;
+}
+
+.services-card--hidden {
+	width: 300px;
+	overflow: hidden;
+	opacity: 0;
+}
+
+.services-card__image-box {
+	display: block;
+	padding-bottom: 36px;
+}
+
+.services-card__image {
+	margin: 0 auto;
+	display: block;
+	width: 160px;
+	border-radius: 12.5%;
+}
+
+.services-card__link {
+	font-weight: 700;
+	color: #111;
+	font-size: 1.0625rem;
+	text-decoration: none;
+	margin: 0 auto;
+    border-bottom: 1px solid rgba(45, 45, 45, 0.1);
+}
+
+.services-card__image-box:hover ~ .services-card__link,
+.services-card__link:hover {
+	color: #ff4e10;
+    border-bottom: 1px solid rgba(45, 45, 45, 0.5);
+}

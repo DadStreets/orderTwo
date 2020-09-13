@@ -1,0 +1,268 @@
+/*
+font-family: 'Open Sans', sans-serif; 400; 700;
+font-family: 'Raleway', sans-serif; 600;
+*/
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	width: 100%;
+	max-width: 1280px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.section-title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 2rem;
+	font-weight: 600;
+	color: #111;
+	text-align: center;
+	margin-bottom: 18px;
+}
+
+.section-line {
+	font-size: 1.1625rem;
+	line-height: 1.4;
+	color: #111;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.flex-box-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*==============================*/
+/*  Over-Header Style  */
+.overheader {
+	background: #fff;
+}
+
+.overheader__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	width: 135px;
+	padding: 12px;
+	display: inline-block;
+}
+
+.logo__img {
+	width: 100%;
+}
+
+.overheader__datetable {
+	text-align: right;
+	margin-right: 40px;
+}
+
+.overheader-datetable__shedule {
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 0.94rem;
+	margin: 5px 0;
+}
+
+.overheader-datetable__work-number {
+	font-size: 1.3125rem;
+	color: #111;
+	line-height: 1.05;
+	margin: 5px 0;
+}
+
+.online-request {
+	background: #ff4e10;
+	color: #fff;
+	padding: 12px 30px;
+	border-radius: 60px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+
+
+/*==============================*/
+/*  Header Style  */
+.header {
+	background: #2d2d2d;
+	height: 58px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: relative;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.header-navbar {
+	display: flex;
+	align-items: center;
+}
+
+.header-navbar__item {
+	list-style: none;
+	height: 100%;
+	position: relative;
+}
+
+.header-navbar__link {
+	color: rgba(255,255,255,.8);
+	font-size: 1rem;
+	text-decoration: none;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding: 0 30px;
+}
+
+.header-navbar__link.active {
+	background: rgba(255,255,255,.2);
+}
+
+.header-navbar__link.active:hover {
+	background: rgba(255,255,255,.2);
+}
+
+.search:hover,
+.header-navbar__link:hover {
+	background: rgba(0,0,0,.1);
+}
+
+.header-navbar__item .fa-bars {
+	transform: scaleY(0.78);
+	font-size: 12px;
+	display: inline-block;
+	position: relative;
+	bottom: -2px;
+	margin-left: 8px;
+	color: rgba(255,255,255,.5);
+}
+
+.header-navbar__item:hover .header-navbar__submenu {
+	visibility: visible;
+	opacity: 1;
+}
+
+.header-navbar__submenu {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transform: translateY(100%);
+	background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 3px 3px;
+    overflow: hidden;
+    z-index: 100;
+    width: 260px;
+    visibility: hidden;
+	opacity: 0;
+}
+
+.header-navbar-submenu__item {
+	list-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.header-navbar-submenu__link {
+	color: #000;
+	padding: 15px 20px;
+	display: block;
+	text-decoration: none;
+	font-size: 0.875rem;
+	line-height: 1.2rem;
+}
+
+.header-navbar-submenu__link:hover {
+	color: #fff;
+	background: #2d2d2d;
+}
+
+.search {
+	padding: 0 30px;
+	color: #fff;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+
+
+/*==============================*/
+/*  Footer Style  */
+.footer {
+	padding: 20px 0;
+	background: #2d2d2d;
+	position: relative;
+}
+
+.footer__inner {
+}
+
+.footer-nav {
+	display: flex;
+	align-items: center;
+}
+
+.footer-nav__item {
+	list-style: none;
+	margin-right: 24px;
+}
+
+.footer-nav__link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-nav__link:hover {
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+.footer__down {
+	border-top: 1px solid rgba(255,255,255,.1);
+	padding-top: 20px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__copyright {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 0.94rem;
+}
+
+.footer__contacts {
+	text-align: right;
+}
+
+.footer-contacts__number {
+	color: #fff;
+	font-size: 1.25rem;
+}
+
+.footer-contacts__email {
+	font-size: 0.94rem;
+	color: #fff;
+}
