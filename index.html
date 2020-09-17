@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>NK-Ankor</title>
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Raleway:wght@600&display=swap" rel="stylesheet">
 	<!-- Personal Links -->
 	<link rel="stylesheet" href="css/styleAll.css">
 	<link rel="stylesheet" href="css/styleIndex.css">
@@ -22,7 +22,10 @@
 			<div class="container">
 				<div class="overheader__inner">
 
-					<a href="index.html" class="logo"><img src="images/logo.png" alt="Logo" class="logo__img"></a>
+					<div class="flex-box-row">
+						<a href="index.html" class="logo"><img src="images/logo.png" alt="Logo" class="logo__img"></a>
+						<p class="logo-tagline">Слоган...</p>
+					</div>
 
 					<div class="flex-box-row">
 						<div class="overheader__datetable">
@@ -45,9 +48,6 @@
 							<a href="#" class="header-navbar__link active">Главная</a>
 						</li>
 						<li class="header-navbar__item">
-							<a href="#" class="header-navbar__link">Контакты</a>
-						</li>
-						<li class="header-navbar__item">
 							<a href="#" class="header-navbar__link">Новости</a>
 						</li>
 						<li class="header-navbar__item">
@@ -68,6 +68,17 @@
 							</ul>
 						</li>
 						<li class="header-navbar__item">
+							<a href="#" class="header-navbar__link">Услуги <i class="fas fa-bars"></i></a>
+							<ul class="header-navbar__submenu">
+								<li class="header-navbar-submenu__item">...</li>
+								<li class="header-navbar-submenu__item">...</li>
+								<li class="header-navbar-submenu__item">...</li>
+								<li class="header-navbar-submenu__item">...</li>
+								<li class="header-navbar-submenu__item">...</li>
+								<li class="header-navbar-submenu__item">...</li>
+							</ul>
+						</li>
+						<li class="header-navbar__item">
 							<a href="#" class="header-navbar__link">Цены <i class="fas fa-bars"></i></a>
 							<ul class="header-navbar__submenu">
 								<li class="header-navbar-submenu__item">
@@ -82,15 +93,7 @@
 							</ul>
 						</li>
 						<li class="header-navbar__item">
-							<a href="#" class="header-navbar__link">Услуги <i class="fas fa-bars"></i></a>
-							<ul class="header-navbar__submenu">
-								<li class="header-navbar-submenu__item">...</li>
-								<li class="header-navbar-submenu__item">...</li>
-								<li class="header-navbar-submenu__item">...</li>
-								<li class="header-navbar-submenu__item">...</li>
-								<li class="header-navbar-submenu__item">...</li>
-								<li class="header-navbar-submenu__item">...</li>
-							</ul>
+							<a href="#" class="header-navbar__link">Контакты</a>
 						</li>
 					</ul>
 
@@ -157,7 +160,63 @@
 			</div>
 		</div>
 
-		<!-- .about>.container>.about__inner -->
+		<div class="about">
+			<div class="container">
+				<div class="about__inner">
+
+					<div class="about-advantage">
+
+						<div class="about-advantage__card">
+							<div class="about-advantage-card__image">
+								<img src="" alt="">
+							</div>
+							<div class="about-advantage-card__context">
+								<h4 class="about-advantage-card__title">1 млрд. рублей</h4>
+								<p class="about-advantage-card__line">мы сэкономили нашим клиентам за счёт легального снижения налоговой ставки</p>
+							</div>
+						</div>
+
+						<div class="about-advantage__card">
+							<div class="about-advantage-card__image">
+								<img src="" alt="">
+							</div>
+							<div class="about-advantage-card__context">
+								<h4 class="about-advantage-card__title">50 000 отсчетов</h4>
+								<p class="about-advantage-card__line">и накладных декларация мы составили за годы работы</p>
+							</div>
+						</div>
+
+						<div class="about-advantage__card">
+							<div class="about-advantage-card__image">
+								<img src="" alt="">
+							</div>
+							<div class="about-advantage-card__context">
+								<h4 class="about-advantage-card__title">500 предприятий</h4>
+								<p class="about-advantage-card__line">мы зарегистрировали для наших клиентов</p>
+							</div>
+						</div>
+
+						<div class="about-advantage__card">
+							<div class="about-advantage-card__image">
+								<img src="" alt="">
+							</div>
+							<div class="about-advantage-card__context">
+								<h4 class="about-advantage-card__title">13 лет</h4>
+								<p class="about-advantage-card__line">Успешного финансового и юридического сопровождения бизнеса в России. Сотни клиентов со всех регионов страны доверили нам свое будущее.</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="about-company">
+						<h3 class="about-company__title">О компании</h3>
+						<p class="about-company__plaintext">Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Accusantium, a nulla sit dolorem consequatur quibusdam aliquid ab odit, minima obcaecati sunt nesciunt aspernatur pariatur adipisci nihil ipsum sapiente impedit animi.</p>
+						<a href="#" class="about-company__button">Узнать больше</a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
 
 		<footer class="footer">
 			<div class="container">

@@ -63,10 +63,16 @@ font-family: 'Raleway', sans-serif; 600;
 	width: 135px;
 	padding: 12px;
 	display: inline-block;
+	margin-right: 24px;
 }
 
 .logo__img {
 	width: 100%;
+}
+
+.logo-tagline {
+	color: rgba(0,0,0,.6);
+	font-size: 0.94rem;
 }
 
 .overheader__datetable {

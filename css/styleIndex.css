@@ -76,3 +76,85 @@
 	color: #ff4e10;
     border-bottom: 1px solid rgba(45, 45, 45, 0.5);
 }
+
+
+/*==============================*/
+/*  About-Us Style  */
+.about__inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-advantage {
+	width: 40%;
+	background: #fff;
+	padding-right: 82px;
+}
+
+.about-advantage__card {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 30px;
+}
+
+.about-advantage-card__image {
+	min-width: 60px;
+	min-height: 60px;
+	flex-shrink: 0;
+	border-radius: 50%;
+	background: #a3d6da;
+	margin-right: 24px;
+}
+
+.about-advantage-card__context {
+
+}
+
+.about-advantage-card__title {
+	color: #111;
+	font-size: 1.12rem;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.about-advantage-card__line {
+	font-size: 0.82rem;
+	font-weight: 300;
+	color: #676767;
+	line-height: 1.5;
+}
+
+.about-company {
+	width: 60%;
+	background: #1c494f;
+	padding: 80px 102px 72px;
+	color: #fff;
+	font-weight: 300;
+}
+
+.about-company__title {
+	color: #fff;
+	font-weight: 300;
+	font-size: 2.5rem;
+	margin-bottom: 24px;
+}
+
+.about-company__plaintext {
+	color: #fff;
+	font-weight: 300;
+	width: 60%;
+	line-height: 1.6;
+	margin-bottom: 32px;
+	font-size: 1.12rem;
+}
+
+.about-company__button {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+	padding: 9px 21px;
+	border-radius: 8px;
+	border: 2px solid #fff;
+	text-shadow: 0 0 5px rgba(0,0,0,.5);
+}
